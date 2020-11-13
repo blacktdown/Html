@@ -156,8 +156,8 @@
            color: #000;
            vertical-align: middle;
            line-height: 2em;
-            margin-bottom: 2px;
-            outline: none;
+           margin-bottom: 2px;
+           outline: none;
         }
         #user.register table div {}
         #user.register table div:nth-child(1) > input {
@@ -173,7 +173,7 @@
             background: transparent;
         }
         #user.register table div:nth-child(3) > input {}
-        #user.register table button {
+        #user.register table > .btnFind {
             padding: 4px;
             border: 1px solid #bebebe;
             background: #e9e9e9;
