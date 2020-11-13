@@ -236,6 +236,17 @@
     
             
         /* 글쓰기 */
+        #board table textarea {
+            height: auto;
+        }
+
+        #board .btnwrite {
+            padding: 8px;
+            border: 1px solid #3b3c3f;
+            background: #4b545e;
+            color: #fff;
+            outline: none;
+        }
         /* 글보기 */
         #board.view {}
         #board.view > div {
@@ -284,3 +295,14 @@
         }
 
         /* 글수정 */
+        #board table textarea {
+            height: auto;
+        }
+
+        #board .btnwrite {
+            padding: 8px;
+            border: 1px solid #3b3c3f;
+            background: #4b545e;
+            color: #fff;
+            outline: none;
+        }
