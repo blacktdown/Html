@@ -193,7 +193,7 @@
             cursor: pointer;
         }
         #user.register > form > div > .btnRegister {
-            padding: 7px;
+            padding: 8px;
             border: 1px solid #bebebe;
             background: #e9e9e9;
             color: #222;
