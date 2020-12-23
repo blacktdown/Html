@@ -433,4 +433,8 @@
         #sub > .cate3 .lnb > li:nth-child(3).on > a {background-image: url('../img/sub_cate3_lnb3_ov.png');}
 
         /* 이벤트 사이드 메뉴 */
+        #sub > .cate4 .lnb > li:nth-child(1) > a {background-image: url('../img/sub_cate4_lnb1.png');}
+        #sub > .cate4 .lnb > li:nth-child(1) > a:hover {background-image: url('../img/sub_cate4_lnb1_ov.png');}
+        #sub > .cate4 .lnb > li:nth-child(1).on > a {background-image: url('../img/sub_cate4_lnb1_ov.png');}
+
         /* 커뮤니티 사이드 메뉴 */   
