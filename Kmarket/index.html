@@ -11,9 +11,6 @@
             font: normal 12px '고딕';
         }
 
-        ul, ol{list-style: none;}
-        a{text-decoration: none; color: #111;}
-
         #wrapper{
             width: 100%;
             height: auto;
@@ -122,13 +119,35 @@
         main .discount{}
 
         /* 푸터영역 */
-        footer{
+        footer {
             width: 100%;
             height: 192px;
             background: #f8f8f8;
             border-top: 1px solid #e9e9e9;
             box-sizing: border-box;
         }
+        footer > ul {
+            width: 1200px;
+            height: 39px;
+            margin: 0 auto;
+            padding: 15px 0;
+            border-bottom: 1px solid #e9e9e9;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        footer > ul > li {
+            display: inline-block;
+            font-weight: bold;
+            border-right: 1px solid #d7d7d7;
+            padding: 0 10px;
+        }
+        footer > img {}
+        footer > p > :nth-child(1) {
+
+        }
+        footer > p > :nth-child(2) {}
+        footer > p > em {}
+
     </style>
 </head>
 <body>
@@ -189,21 +208,23 @@
                 <li><a href="#">개인정보처리방침</a></li>
                 <li><a href="#">전자금융거래약관</a></li>
             </ul>
+            <div>
             <img src="./img/footer_logo.png" alt="Kmarket">
             <p>
-                <em>(주)KMARKET</em>
-                부산시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)
-                대표이사 : 홍길동
-                사업자등록번호 : 220-81-83676 사업자정보확인
-                통신판매업신고 : 강남 10630호 Fax : 02-589-8842
+                <em>(주)KMARKET</em><br/>
+                부산시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)<br/>
+                대표이사 : 홍길동<br/>
+                사업자등록번호 : 220-81-83676 사업자정보확인<br/>
+                통신판매업신고 : 강남 10630호 Fax : 02-589-8842<br/>
             </p>
             <p>
-                <em>고객센터</em>
-                Tel : 1234-5678 (평일 09:00~18:00)
-                스마일클럽/SVIP 전용 : 1522-5700 (365일 09:00~18:00)
-                경기도 부천시 원미구 부일로 223(상동) 투나빌딩 6층
-                Fax : 051-123-4567 | Mail : kmarket@kmarket.co.kr
+                <em>고객센터</em><br/>
+                Tel : 1234-5678 (평일 09:00~18:00)<br/>
+                스마일클럽/SVIP 전용 : 1522-5700 (365일 09:00~18:00)<br/>
+                경기도 부천시 원미구 부일로 223(상동) 투나빌딩 6층<br/>
+                Fax : 051-123-4567 | Mail : kmarket@kmarket.co.kr<br/>
             </p>
+        </div>
         </footer>
     </div>
     
