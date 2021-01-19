@@ -209,10 +209,17 @@ main > aside > .category ol > li > a:hover {
     color: #41ab47;
     text-decoration: underline;
 }
+
 main > aside > .best > ol > li > a .org_price > del {font-size: 10px; color: #aaa;}
 main > aside > .best > ol > li > a .org_price > del::after {content: '원';}
 main > aside > .best > ol > li > a .org_price > span {font-size: 10px; color: #eb000a;}
 main > aside > .best > ol > li > a .org_price > span::after {content: '↓';}
+main > aside > .best > ol > li > a .dis_price {margin-top: 4px;}
+main > aside > .best > ol > li > a .dis_price > ins {
+    font-size: 14px;
+    text-decoration: none;
+}
+main > aside > .best > ol > li > a .dis_price > ins::after {content: '원';}
 
 
 main > section {
