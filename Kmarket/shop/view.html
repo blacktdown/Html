@@ -12,7 +12,106 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        #view {}
+        #view {
+            padding: 16px;
+            box-sizing: border-box;
+        }
+        #view > nav {
+            width: 100%;
+            height: 36px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+        }
+        #view > nav > h1 {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0 0 7px;
+        }
+        #view > nav > p {
+            float: right;
+            margin-top: 10px;
+        }
+        #view > section > section {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        #view > section > section > article {float: left;}
+        #view > section > article {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+        }
+        #view .info > div {
+            float: left;
+            width: 50%;
+            height: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #view .info > .image > img {
+            width: 100%;
+        }
+        #view > section > article > div > nav {
+            border-bottom: 1px solid rgb(234, 234, 234);
+            padding-bottom: 10px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        #view > section > article > div > nav > h1 {
+            float: left;
+            color: rgb(30, 39, 50);
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        #view > section > article > div > nav > h2 {
+            float: right;
+            color: rgb(119, 119, 119);
+            margin-top: 8px;
+        }
+        #view .info > .summary > p {
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: -1px;
+        }
+        h5.rating {
+            width: 150px;
+            height: 20px;
+            font-size: 0px;
+            background-image: url(../img/ico_rating_star.png);
+            background-repeat: no-repeat;
+            background-position: 36px 0px;
+            text-indent: 86px;
+        }
+        h5.rating.star1 {background-position: 0 -40px;}
+        h5.rating.star2 {background-position: 0 -80px;}
+        h5.rating.star3 {background-position: 0 -120px;}
+        h5.rating.star4 {background-position: 0 -160px;}
+        h5.rating.star5 {background-position: 0 -200px;}
+
+        #view .info > .summary .org_price > del {
+            font-size: 18px;
+            color: #aaa;
+        }
+        #view .info > .summary .org_price > del::after {
+            content: "원";
+        }
+        #view .info > .summary .org_price > span {
+            font-size: 16px;
+            color: red;
+            margin-left: 6px;
+        }
+        #view .info > .summary .org_price > span::after {content: '↓';}
+        #view .info > .summary .dis_price > ins {
+            font-size: 26px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #view .info > .summary .dis_price > ins::after {
+            content: "원";
+        }
     </style>
 </head>
 <body>
@@ -103,7 +202,43 @@
 
             </aside>
             <section id="view">
-               
+                <nav>
+                    <h1>[블루포스] FreeMovement BLUEFORCE</h1>
+                    <p>HOME > 패션·의류·뷰티 > 남성의류</p>
+                 </nav>
+                 <section>
+                     <article class="info">
+                        <div class="image">
+                            <img src="../img/thumb-sample-t1.jpg" alt="이미지">
+                        </div>
+                        <div class="summary">
+                            <nav>
+                                <h1>(주)블루 포스</h1>
+                                <h2>상품번호 : 10010118412</h2>
+                            </nav>
+                            <p>남자 셔츠 남방 남성 와이셔츠 체크남방 스트라이프</p>
+                            <nav>
+                                <h5 class="rating star4"><a href="">상품평보기</a></h5>
+                            </nav>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <div class="org_price">
+                                            <del>30,000</del>
+                                            <span>10%</span>
+                                        </div>
+                                        <div class="dis_price">
+                                            <ins>27,000</ins>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav></nav>
+                            <nav></nav>
+                            <nav></nav>
+                        </div>
+                     </article>
+                 </section>
             </section>
         </main>
         <footer>
