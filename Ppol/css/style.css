@@ -961,6 +961,20 @@ main .discount {}
     border: 1px solid #217fd7;
     color: #fff;
 }
+#view .info > .summary > a > input[type=button] {
+    width: 100%;
+    height: 56px;
+    font-size: 26px;
+    border-width: 1px;
+    border-color: #d81818;
+    border-bottom-color: #9e1212;
+    background: #ed2f2f;
+    background-image: linear-gradient(#ed2f2f, #dd0e0e);
+    background-image: -webkit-linear-gradient(#ed2f2f, #dd0e0e);
+    color: #fff;
+    box-sizing: border-box;
+    margin-top: 10px;
+    }
 
 #view .notice {}
 #view article > nav {
@@ -1214,7 +1228,7 @@ color: #555;
 #cart > .info > table td:last-child {
 text-align: right;
 }
-#cart > .info > input[type=button] {
+#cart > .info > a > input[type=button] {
 width: 100%;
 height: 56px;
 font-size: 26px;
@@ -1355,8 +1369,9 @@ margin-top: 10px;
 padding: 6px;
 }
 
-#order .delivery > table input[name=addr1] {width: 400px;} 
-#order .delivery > table input[name=addr2] {width: 400px;}
+#order .delivery > table input[id="sample6_address"] {width: 400px;} 
+#order .delivery > table input[id="sample6_detailAddress"] {width: 180px;}
+#order .delivery > table input[id="sample6_extraAddress"] {width: 212px;}
 #order .delivery > table input[type=button] {
 padding: 4px 6px;
 border: 1px solid #ccc;
@@ -1485,7 +1500,7 @@ color: #555;
 #order .info > table td:last-child {
 text-align: right;
 }
-#order .info > input[type=button] {
+#order .info > a > input[type=button] {
 width: 100%;
 height: 56px;
 font-size: 26px;
